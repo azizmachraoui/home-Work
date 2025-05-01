@@ -1,5 +1,5 @@
 function iterateAndLogWithFor(n) {
-    for (var i = 0; i < n; i=i+1) {
+    for (var i = n; i >= 0; i=i-1) {
       if (i % 2 === 0) {
         console.log(i+" is even");
       } else {
@@ -9,8 +9,8 @@ function iterateAndLogWithFor(n) {
   }
 
     function iterateAndLogWithWhile(n) {
-        var i=0
-        while(i<n){
+        var i=n
+        while(i>=0){
             if (n%2===0){
                 console.log(i+" is even")
               }
@@ -18,7 +18,7 @@ function iterateAndLogWithFor(n) {
                 console.log(i+" is odd")
                 
             }
-            i=i+1
+            i=i-1
          }
     }
 
