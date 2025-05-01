@@ -55,7 +55,8 @@ function addObjectPRoperty(object1,key,object2){
     return object1
 }
 
-// 9.Write‌ ‌a‌ ‌function‌ ‌called‌ ‌‌addFullNameProperty‌‌ ‌that‌ ‌takes‌ ‌an‌ ‌object‌ ‌as‌ ‌a‌ ‌parameter.‌ ‌If the object has both a firstName and a lastName property, then it adds a new property with the key fullName and the value as a string of the firstName and lastName combined with a space between them.
+
+
 function addFullNameProeprty(object){
     if (object.firstName && object.lastName){
         object.fullName=object.firstName+' '+object.lastName
